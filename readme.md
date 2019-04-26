@@ -9,5 +9,5 @@ phar包没有集成在php命令下,写个脚本简单处理打包/解包.phar文
 ```
 **解包**
 ```
-./phar.php 
+./phar.php extract -s examples/test.phar
 ```
